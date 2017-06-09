@@ -1,10 +1,61 @@
+.flex-li {
+  display: flex;
+  flex-direction: row;
+  max-width: 700px;
+  width: 700px;
+  height: 65px;
+  border: 2px solid #bbb;
+  margin-bottom: 8px;
+}
+
+.checkbox-div {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background: #d0d0d0;
+}
+
+.info-div {
+  display: flex;
+  flex: 5;
+  flex-direction: column;
+}
 .flex-container {
   display: -webkit-flex;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 60px 0px 80px 0px;
 }
 html,
 body {
     height: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  display: inline-block;
+  padding: 8px 25px;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #66c3c9;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  text-transform: none;
+}
+
+h4 {
+  margin: 0;
+  padding-bottom: 8px;
 }

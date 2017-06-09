@@ -2,3 +2,29 @@ html,
 body {
     height: 100%;
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  display: inline-block;
+  padding: 8px 25px;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #66c3c9;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  text-transform: none;
+}
+
+h4 {
+  margin: 0;
+  padding-bottom: 8px;
+}

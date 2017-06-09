@@ -19,6 +19,7 @@
     "webpack-dev-server": "^2.4.5"
   },
   "dependencies": {
+    "axios": "^0.16.2",
     "extract-text-webpack-plugin": "^2.1.2",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"

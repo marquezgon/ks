@@ -1,6 +1,24 @@
-.flex-container {
-  display: -webkit-flex;
+.flex-li {
   display: flex;
+  flex-direction: row;
+  max-width: 700px;
+  width: 700px;
+  height: 65px;
+  border: 2px solid #bbb;
+  margin-bottom: 8px;
+}
+
+.checkbox-div {
+  display: flex;
+  flex: 1;
   align-items: center;
   justify-content: center;
+  height: 100%;
+  background: #d0d0d0;
+}
+
+.info-div {
+  display: flex;
+  flex: 5;
+  flex-direction: column;
 }
